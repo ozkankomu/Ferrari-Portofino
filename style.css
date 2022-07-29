@@ -1,0 +1,100 @@
+*{margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+.container{
+    background-color: rgb(232, 212, 251);
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+
+   
+}
+
+.baslik{
+    font-size: 40px;
+    font-family: sans-serif;
+    margin:40px auto;
+    box-shadow: 15px 15px 20px rgb(120, 4, 4);
+    width: 900px;
+    text-align: center;
+    
+}
+
+.image1{
+    margin: 20px;
+    border-radius: 20%;
+    box-shadow: 15px 15px 50px rgb(110, 12, 12);
+
+}
+
+.html_baslik{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.content{
+    background-color: rgb(161, 96, 222);
+    width: 75%;
+    text-align: justify;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 1.5rem; 
+    border-radius: 5%;
+    color: white;
+    box-shadow: 10px 10px 20px blueviolet;   
+    }
+
+    .content1{
+        color: darksalmon;
+        border-left: 5px solid darksalmon;
+        padding-left: 10px;
+    }
+
+    .css_baslik{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 30px;
+        padding: 10px;}
+
+    .baglanti{
+        border-radius: 5px;
+        text-decoration: none;
+        background-color: rgb(100, 4, 132);
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        color: white;
+    }
+
+    .baglanti:hover{
+        background-color: black;
+    }
+
+    .alt{
+        margin: 15px;
+    }
+    
+    .c{font-size: 1.5rem;}
+
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
