@@ -1,71 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Portofino</title>
 </head>
+
 <body>
+    <nav id="nav">
+        <div class="start">
+            <img src="images/logo.svg" alt="">
+        </div>
+        <div class="mid">
+            <ul id="nav-menu">
+                <li><a id="menuItem" href="">AUTO</a></li>
+                <li><a id="menuItem" href="">RACING</a></li>
+                <li><a id="menuItem" href="">STORE</a></li>
+                <li><a id="menuItem" href="">UNIVERSE</a></li>
+                <li><a id="menuItem" href="">CORPORATE</a></li>
+            </ul>
+
+            <div id="hamburger">
+                <img id="burger_svg" src="images/menu (2).svg" alt="">
+            </div>
+
+
+        </div>
+        <div class="end"><a href="">CONNTACT</a></div>
+    </nav>
+
     <div class="container">
 
-        <h1 class="baslik">HTML & CSS BASIC SUMMARY</h1>
+        <section class="hero">
 
-        <img class="image1" src="./html5-css3.jpg" alt="Resim Acilamadi!">
-
-        <div class="content">
-            <h2 class="html_baslik"> HTML Summary</h2>
-            <p class="html_summary"></p>
-            Our page's content, structure, and meaning are all defined using HTML (HyperText Markup Language).
-             <br><br>
-            You don't use it for styling purposes. Instead, use CSS for that!
-            <br>     <br>        
-            <span class="content1">HTML uses "elements" to describe (annotate) content</span> 
-            <br><br>
-            Typically, HTML elements have an opening tag, content, and a closing tag.
-            <br> <br>
-            <span class="content1">You can also have void (empty) elements like images</span> 
-            <br><br>
-            <span class="content1">You can also configure elements with attributes </span>
-            <br><br>
-            There's a long list of available elements but you'll gain experience over 
-            time, no worries.
-            <br><br>
-            Learn more about all available HTML elements on <mark> the MDN HTML element reference </mark>
-            <br><br>
-
-            <h2 class="css_baslik">CSS Summary</h2>
-            <p class="css_summary">
-                You can style the content of your page by using CSS (Cascading Style Sheets).
-                <br><br>
-                To assign styles, use property value pairs. 
-                <br><br>
-                By using the "style" attribute, you can assign styles.
-                <br> <br>
-                <p class="content1">Typically, global styles (such as those provided by the "style" element) are used to prevent code duplication</p> 
-                <br><br>
-                A different option is to use external stylesheet files that you "link" to "
-                <br> <br>
-                <div class="content1">Understanding terms like "inheritance," "specificity," and "the box model" is essential while dealing with CSS.</div> 
-                <br><br>
-                Visit the MDN CSS property reference to learn more about all of the available CSS properties and values. 
-            </p>
-
-        </div>
-
-        <div class="ag">
-
-            <a class="baglanti" href="#">Download</a>
-
-            <p class="alt"><span class="c">©</span>2022</p>
+            <div class="hero_body">
 
 
-        </div>
+                <div class="h_top">
+                    <h3 class="h_title">2022</h3>
+                    <P class="h_alt_title">Ferrari</P>
+                </div>
+
+                <div class="h_bottom">
+                    <p class="scroll_text">Scroll Down</p>
+                    <img class="arrow" src="images/Arrow 4.svg" alt="">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="voyage">
+            <div class="voyage_body">
+                <div class="voy_start">
+                    <img class="voy_arow" src="images/voyage arror.svg" alt="">
+                    <h1 class="voy_title">A VOYAGE
+                        OF REDISCOVERY
+                    </h1>
+                </div>
+
+                <div class="voy_end">
+                    <p class="voy_text"> <span data-aos="fade-up">The Ferrari Portofino M,</span><span
+                            data-aos="fade-up" data-aos-duration="1000"> which features the legendary ‘M’ suffix,</span>
+                        <span data-aos="fade-up" data-aos-duration="2000">forModificata, in its name, is the evolution
+                            of the Ferrari Portofino.</span></p>
+
+                </div>
+            </div>
+        </section>
+
+        <section data-aos-offset="350" data-aos="zoom-in-up" data-aos-duration="1000" class="voyvideo">
+            <div class="voyvideo_body">
+                <video id="video" loop muted autoplay playsinline style="pointer-events: none;">
+                    <source src="images/videoplayback.mp4" type="video/mp4">
+
+                </video>
+            </div>
+        </section>
+
+
+        <section class="engine">
+            <div class="engine_top">
+                <h1 class="engine_title">ENGINE</h1>
+                <P class="engine_text">The Ferrari Portofino M’s engine belongs to the V8 turbo family voted
+                    “International Engine of the Year” on four consecutive occasions. The power unit can punch out 620
+                    cv, 20 more than the Ferrari Portofino</P>
+            </div>
+
+            <div class="engine_bottom">
+                <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-offset="0"
+                    data-aos-duration="1000">
+
+                    <h1 class="ebt">V6</h1>
+                    <p class="ebtxt">ENGINE</p>
+                </div>
+                <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-duration="1500"
+                    data-aos-offset="0">
+                    <h1 class="ebt">1600 cc</h1>
+                    <p class="ebtxt">TOTAL DISPLACEMENT</p>
+                </div>
+                <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-duration="2000"
+                    data-aos-offset="0">
+                    <h1 class="ebt">3.45 sec</h1>
+                    <p class="ebtxt">0-100 KM/H</p>
+                </div>
+                <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1500" data-aos-offset="0">
+                    <h1 class="ebt">620 cv</h1>
+                    <p class="ebtxt">MAXIMUM POWER</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="design">
+            <div class="design_body">
+
+                <div data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-offset="-150"
+                    class="design_left">
+                    <div class="design_left_body">
+                        <img src="images/voyage arror.svg" alt="">
+                        <h1 class="design_title">DISCOVER THE DESIGN, COURTESY OF ITS CREATOR</h1>
+                        <p class="design_txt">Flavio Manzoni, Ferraris Chief Design Officer, illustrates the design of
+                            the new Portofino M and
+                            its sporty, elegant character. The dual identity of the car is particularly evident in its
+                            exterior, where the front, side and rear sections form part of a single, sculptural
+                            structure,
+                            as well as its passenger compartment.</p>
+                    </div>
+                </div>
+
+
+                <div class="design_right">
+                    <div><img id="design_img_sl" class="design_img" src="images/Mask group (4).png" alt=""></div>
+                    <div class="slider">
+                        <img id="slider_btn_l" src="images/Arrow 3arrow_l.svg" alt="">
+                        <img id="slider_btn_r" src="images/Arrow 2arrow_r.svg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="red">
+            <section class="randin">
+                <h1 class="randin_title" data-aos="fade-up" data-aos-offset="200">RATIONALITY AND INVOLVEMENT</h1>
+                <p class="randin_txt"> <span data-aos="fade-up" data-aos-anchor-placement="bottom-center"
+                        data-aos-duration="2000" data-aos-offset="-100"> he Ferrari Portofino M’s multi-level dashboard
+                        comprises an upper half and then an</span><span data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-center" data-aos-duration="3000"
+                        data-aos-offset="-100">intermediate gap designed to lighten the perceived mass of the lower
+                        half. This breaking up of the</span>
+                    <span data-aos="fade-up" data-aos-anchor-placement="bottom-center" data-aos-duration="4000"
+                        data-aos-offset="-100">dash into different levels allowed the designers to organise the in-car
+                        devices to very rational</span>
+                    <span data-aos="fade-up" data-aos-anchor-placement="bottom-center" data-aos-duration="5000"
+                        data-aos-offset="-100">effect while simultaneously defining its signature full-width
+                        architecture.</span>
+                </p>
+            </section>
+
+
+            <div class="redimg">
+                <div class="redimg_body">
+                    <div class="redimg_1_img" data-aos-offset="400" data-aos="zoom-in-right" data-aos-duration="500">
+                        <img src="images/inter1.png" width="100%" alt=""></div>
+                    <div class="redimg_2_img" data-aos-offset="400" data-aos="zoom-in-left" data-aos-duration="500"><img
+                            src="images/inter2.png" width="100%" alt=""></div>
+                </div>
+            </div>
+
+            <section class="adas">
+                <h1 class="adas_title">ADAS</h1>
+                <ul>
+                    <li>Adaptive Cruise Control: with Stop&Go function for driving in traffic</li>
+                    <li>Automatic High Beam: automatically turns on and off high beams when driving at night
+                        Blind Spot Monitoring: alerts driver to vehicles in the blind spot</li>
+                    <li>Lane Departure Warning: acoustic and/or visual alert that the car has strayed out of its lane
+                    </li>
+                    <li>Predictive Emergency Brake System: alerts the driver to potential collision risks readying the
+                        car to lessen the consequences of a frontal impact</li>
+                    <li>Rear Cross Traffic Alert: warns driver of moving obstacles hidden in the car’s rear blind spot
+                        when reversing</li>
+                    <li>Surround View: with 3D display</li>
+                    <li>Traffic Sign Recognition: constantly displays the speed limits on the particular road/street
+                        vehicle is on</li>
+                </ul>
+            </section>
+
+            <section class="news">
+                <div class="news_body">
+                    <div class="news_top">
+                        <div>
+                            <h1 class="news_title">NEWS</h1>
+                        </div>
+                        <div class="news_arrow">
+                            <img src="images/Arrow 3l.svg" alt="">
+                            <img src="images/Arrow 3r.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="news_bottom">
+                        <div class="news_bottom_body">
+
+                            <div class="news_card">
+                                <div class="news_card_body">
+                                
+                                    <div><img class="card_image" src="images/card1.png" alt=""></div>
+                                
+                                    <div class="card_info">
+                                        <h3 class="cardtitle">Ferrari Portofino-M</h3>
+                                        <img width="30px" src="images/arrow-up-right (1).svg" alt="">
+                                    </div>
+                                
+                                </div>
+
+                            </div>
+                           
+                            <div class="news_card">
+                                <div class="news_card_body">
+                                
+                                    <div><img class="card_image" src="images/card3.png" alt=""></div>
+                                
+                                    <div class="card_info">
+                                        <h3 class="cardtitle">Ferrari-296-gt3</h3>
+                                        <img width="30px" src="images/arrow-up-right (1).svg" alt="">
+                                    </div>
+                                
+                                </div>
+
+                            </div>
+
+                            <div class="news_card">
+                                <div class="news_card_body">
+                                
+                                    <div><img class="card_image" src="images/card4.png" alt=""></div>
+                                
+                                    <div class="card_info">
+                                        <h3 class="cardtitle">Photo Max Earey</h3>
+                                        <img width="30px" src="images/arrow-up-right (1).svg" alt="">
+                                    </div>
+                                
+                                </div>
+
+                            </div>
+
+                            <div class="news_card">
+                                <div class="news_card_body">
+                                
+                                    <div><img class="card_image" src="images/card2.png" alt=""></div>
+                                
+                                    <div class="card_info">
+                                        <h3 class="cardtitle">New Race Mode</h3>
+                                        <img width="30px" src="images/arrow-up-right (1).svg" alt="">
+                                    </div>
+                                
+                                </div>
+                          
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+        </section>
+
+        <footer class="footer">
+            <div class="footer_body">
+                <div class="footer_top">
+
+                    <div class="footer_part">
+                        <a class="footer_title" href="">
+                            <h1>AUTO</h1>
+                        </a>
+
+                        <a class="footer_lable" href="">Ferrari Line Up</a>
+                        <a class="footer_lable" href="">Ferrari Car Configurator</a>
+                        <a class="footer_lable" href="">Personalization</a>
+                        <a class="footer_lable" href="">Services</a>
+                        <a class="footer_lable" href="">Officine Classiche</a>
+                        <a class="footer_lable" href="">Ferrari Certified Pre-owned</a>
+
+                    </div>
+
+                    <div class="footer_part">
+                        <a class="footer_title" href="">
+                            <h1>SCUDERIA FERRARI
+                            </h1>
+                        </a>
+
+                        <a class="footer_lable" href="">F1-75</a>
+                        <a class="footer_lable" href="">Charles Leclerc</a>
+                        <a class="footer_lable" href="">Carlos Sainz</a>
+                        <a class="footer_lable" href="">News</a>
+                        <a class="footer_lable" href="">Media Galleries</a>
+                        <a class="footer_lable" href="">Races</a>
+
+                    </div>
+
+                    <div class="footer_part">
+                        <a class="footer_title" href="">
+                            <h1>STORE</h1>
+                        </a>
+
+                        <a class="footer_lable" href="">Man</a>
+                        <a class="footer_lable" href="">Woman</a>
+                        <a class="footer_lable" href="">Kids</a>
+                        <a class="footer_lable" href="">Ferrari Watches</a>
+                        <a class="footer_lable" href="">Ferrari Shoes</a>
+                        <a class="footer_lable" href="">Scuderia Ferrari Replica</a>
+
+                    </div>
+
+                    <div class="footer_part">
+                        <a class="footer_title" href="">
+                            <h1>RACES
+                            </h1>
+                        </a>
+
+                        <a class="footer_lable" href="">Competizioni GT</a>
+                        <a class="footer_lable" href="">Corse Clienti</a>
+                        <a class="footer_lable" href="">Ferrari Challenge</a>
+                        <a class="footer_lable" href="">XX Programme</a>
+                        <a class="footer_lable" href="">F1 Clienti</a>
+                        <a class="footer_lable" href="">Corso Pilota</a>
+
+                    </div>
+
+                    <div class="footer_part">
+                        <a class="footer_title" href="">
+                            <h1>UNIVERSE</h1>
+                        </a>
+
+                        <a class="footer_lable" href="">News</a>
+                        <a class="footer_lable" href="">The Official Ferrari Magazine</a>
+                        <a class="footer_lable" href="">Ferrari Museums</a>
+                        <a class="footer_lable" href="">Ristorante Cavallino</a>
+                        <a class="footer_lable" href="">History</a>
+                        <a class="footer_lable" href="">Ferrari Simulation Center</a>
+
+                    </div>
+
+                </div>
+                <hr>
+                <div class="footer_bottom">
+                    <p class="footer_bottom_text">Ferrari N.V. - Holding company - A company under Dutch law, having its
+                        official seat in
+                        Amsterdam, the Netherlands and its corporate address at Via Abetone Inferiore No. 4, I-41053
+                        Maranello (MO), Italy, registered with the Dutch trade register under number 64060977
+
+                        Ferrari S.p.A. - A company under Italian law, having its registered office at Via Emilia Est No.
+                        1163, Modena, Italy, Companies’ Register of Modena, VAT and Tax number 00159560366 and share
+                        capital of Euro 20,260,000
+
+                        Copyright 2022 - All rights reserved</p>
+                </div>
+            </div>
+        </footer>
 
 
     </div>
-
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
